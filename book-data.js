@@ -1,6 +1,6 @@
 const booksData = [
     {
-        title: "Harry Potter and the Sorcerer's Stone",
+        title: "Harry Potter",
         author: "J.K. Rowling",
         publicationYear: 1997
     },

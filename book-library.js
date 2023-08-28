@@ -9,7 +9,7 @@ class Library {
         this.books.push(book);
     }
 
-    searchBookBy(criteria, value) {
+    searchBook(criteria, value) {
         return this.books.filter(book => book[criteria] === value);
     }
 

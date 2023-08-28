@@ -7,7 +7,7 @@ function validateBook(book) {
 function validateSearchCriteria(criteria) {
     const validCriteria = ["title", "author", "publicationYear"];
     if (!validCriteria.includes(criteria)) {
-        throw new Error("Invalid search criteria");
+        throw new Error("Invalid search criteria given");
     }
 }
 

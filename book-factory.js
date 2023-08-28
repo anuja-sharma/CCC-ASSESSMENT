@@ -5,11 +5,11 @@ class Book {
         this.publicationYear = publicationYear;
     }
 
-    getDetails() {
+    getBookDetails() {
         return `Title: ${this.title}, Author: ${this.author}, Publication Year: ${this.publicationYear}`;
     }
 
-    updateDetails({ title, author, publicationYear }) {
+    updateBookDetails({ title, author, publicationYear }) {
         if (title) {
             this.title = title;
         }
